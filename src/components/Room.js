@@ -4,7 +4,7 @@ import React, { useState} from 'react';
 //const socket = io.connect("http://localhost:3001");
 
 const Room = ({revealWords}) => {
-    const nickname="mushy";
+    const nickname = "Aditya";
     const [operativeRed,setOperativeRed] = useState([]);
     const [spymasterRed,setSpymasterRed] = useState([]);
     const [operativeBlue,setOperativeBlue] = useState([]);

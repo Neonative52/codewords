@@ -1,6 +1,6 @@
 import {Routes, Route} from 'react-router-dom';
 import Homepage from "./components/Homepage";
-import CreateRoom from "./components/CreateRoom";
+import JoinRoom from "./components/JoinRoom";
 import Room from "./components/Room";
 import Layout from './components/Layout';
 
@@ -31,7 +31,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         <Route index element = {<Homepage />} />
         <Route path="room">
-          <Route index element = {<CreateRoom />} />
+          <Route index element = {<JoinRoom />} />
           <Route path='play'>
             <Route index element = {<Room revealWords={revealWords}/>} />
           </Route>

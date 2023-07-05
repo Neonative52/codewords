@@ -28,12 +28,17 @@
     font-size: 50px;
 }
 
+.buttons{
+    display: flex;
+}
+
 .Button{
     height: 5vh;
     font-size: 20px;
     border-radius: 20px;
     border: 2px solid black;
     box-shadow: 2px 2px;
+    margin-right: 5px;
 }
 
 .Button:hover{
@@ -65,7 +70,7 @@
     font-size: 1rem;
 }
 
-.Nickname{
+.Nickname,.RoomID{
     margin: 5px;
     height: 5vh;
     font-size: 1rem;
@@ -74,7 +79,7 @@
     text-align: center;
 }
 
-.Nickname:focus{
+.Nickname:focus,.RoomID:focus{
     background-color: black;
     color: white;
 }
